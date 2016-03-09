@@ -16,7 +16,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         app:rrvIsRefreshable="false"
-        app:rrvLayoutType="LinearLayout"
+        app:rrvLayoutType="LinearLayoutWithHeaders"
+        app:rrvHeaderColumnName="name"
         />
 </merge>
 
